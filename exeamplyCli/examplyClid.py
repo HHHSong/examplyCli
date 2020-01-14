@@ -58,6 +58,6 @@ def _cli():
     except IOError as msg:
         mainParser.error(str(msg))
 
-
-if __name__ == "__main__":
-    _cli()
+def Cli():
+    if __name__ == "__main__":
+        _cli()
